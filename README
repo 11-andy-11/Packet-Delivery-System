@@ -1,0 +1,49 @@
+Ion Andrei Cristian, grupa 313CC- explicarea codului
+Implementarea codului a luat 16 ore.
+Am definit structurile pentru cartier, pachet și poștaș, apoi am creat o funcție de
+citire pentru introducerea datelor. Am citit numărul cartierelor, numele acestora,
+numărul pachetelor și pentru fiecare pachet adresa, prioritatea,greutatea și
+mesajul.
+
+Funcția extragere calculează idCartier, strada și numărul, transformând adresa
+din binar în zecimal. 
+
+Funcția distribuire alocă pachetele poștașilor pe baza idCartier-ului.
+
+Funcția sortare ordonează pachetele întâi după prioritate, apoi dacă au aceeași 
+prioritate,după greutate și dacă au aceeași greutate nu schimbă ordinea. 
+
+Funcția inversare împarte un mesaj în cuvinte (folosind strtok) și îl 
+reconstruiește în ordine inversă, cu ajutorul unui tablou de cuvinte.
+
+Funcția calcul extrage strada și numărul casei(funcția extragere),inversează mesajul și calculează
+codul. 
+
+Funcția modif schimbă biți din cod prin XOR, în funcție factorii
+primi ai id-ului poștașului;
+
+Funcția alterare verifică prezența cifrelor id-ului poștașului 
+printre cifrele codului și alterează codul dacă este cazul.
+
+Funcția punctaj aplică funcția distribuire și calculează punctajul poștașului pe baza
+codurilor pachetelor. 
+
+În main, am inițializat variabilele, am citit numărul cerinței și am rezolvat fiecare
+cerință.
+
+Cerința 1: Am citit datele și afișat adresa conform formatului cerut.
+Cerința 2: Am extras și afișat idCartier-ul, strada și numărul pentru
+fiecare poștaș.
+Cerința 3: Am distribuit pachetele și afișat id-ul , nr de pachete
+și vectorul de pachete ale fiecărui poștaș.
+Cerința 4: Am sortat pachetele după prioritate și greutate și am 
+afișat id-ul,nr de pachete și vectorul de pachete ale fiecărui poștaș.
+Cerința 5: Am calculat codul pachetelor folosind funcția calcul și am
+afișat id-ul poștașului, nr de pachete și pentru fiecare pachet al poștașului, id ul si codul lui.
+Cerința 6: Am alterat codul pachetelor folosind funcția alterare(dacă era cazul) și am
+afișat id-ul poștașului, nr de pachete și pentru fiecare pachet al poștașului, id ul si codul lui. .
+Cerința 7: Am calculat punctajul final folosind funcția punctaj și am afisat id ul
+fiecărui poștaș urmat de puncajul acestuia.
+
+
+
